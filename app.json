@@ -1,0 +1,19 @@
+{
+  "name": "Parse Dashboard on Heroku",
+  "description": "Get the Parse Dashboard up and running quickly on Heroku",
+  "repository": "https://github.com/darrenkidd/parse-dashboard-on-heroku",
+  "logo": "https://parseplatform.org/img/logo.svg",
+  "keywords": ["parse", "parse-server", "dashboard", "heroku"],
+  "env": {
+    "PARSE_DASHBOARD_CONFIG": {
+      "description": "",
+      "value": "{\"apps\":[{\"appName\":\"My Parse App\",\"serverURL\":\"https://my-parse-app.com/api\",\"appId\":\"my-parse-app\",\"masterKey\":\"*****\",\"production\":true}],\"users\":[{\"user\":\"administrator\",\"pass\":\"*****\"}],\"useEncryptedPasswords\":true}",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

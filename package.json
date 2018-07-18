@@ -1,0 +1,12 @@
+{
+  "name": "parse-dashboard-on-heroku",
+  "version": "0.0.1",
+  "repository": "github:darrenkidd/parse-dashboard-on-heroku",
+  "author": "Darren Kidd <dev@kidd.life>",
+  "scripts": {
+    "start": "parse-dashboard --trustProxy=1"
+  },
+  "dependencies": {
+    "parse-dashboard": "^1.2.0"
+  }
+}
