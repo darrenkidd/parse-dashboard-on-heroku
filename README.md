@@ -93,6 +93,10 @@ See also the excellent documentation [here](https://github.com/parse-community/p
 
 ### Pro-Tips / Gotchas
 
+#### Secure Authentication
+
+Dashboard logins must be done via a secure connection; however, because Heroku proxies traffic to the dashboard, it cannot detect if `https` is being used. Therefore, the dashboard is started with the `--trustProxy=1` option.
+
 #### Server URLs
 
 Make sure that your `serverURL` values have the mount path on the end i.e. `/api` (see template).
