@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "repository": "github:darrenkidd/parse-dashboard-on-heroku",
   "author": "Darren Kidd <dev@kidd.life>",
+  "license": "MIT",
   "scripts": {
     "start": "parse-dashboard --trustProxy=1"
   },
