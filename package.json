@@ -8,6 +8,6 @@
     "start": "parse-dashboard --trustProxy=1"
   },
   "dependencies": {
-    "parse-dashboard": "^2.1.0"
+    "parse-dashboard": "^5.0.0"
   }
 }
